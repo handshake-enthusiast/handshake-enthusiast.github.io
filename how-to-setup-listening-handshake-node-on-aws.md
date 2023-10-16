@@ -418,3 +418,20 @@ Would be great to hear from you in the comments section below. I'm curious where
 _© 2023 Handshake Enthusiast_
 
 _All rights reserved. You may share the link to this article, but the content itself may not be reproduced or distributed without my express permission. I retain all copyright. I intend to republish this article in the future under the Creative Commons Attribution 4.0 International License (CC BY 4.0), which will permit sharing and adaptation with appropriate credit._
+
+<script src="https://giscus.app/client.js"
+        data-repo="handshake-enthusiast/handshake-enthusiast.github.io"
+        data-repo-id="R_kgDOKhK0Tg"
+        data-category="General"
+        data-category-id="DIC_kwDOKhK0Ts4CaL2Y"
+        data-mapping="title"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="top"
+        data-theme="preferred_color_scheme"
+        data-lang="en"
+        data-loading="lazy"
+        crossorigin="anonymous"
+        async>
+</script>
