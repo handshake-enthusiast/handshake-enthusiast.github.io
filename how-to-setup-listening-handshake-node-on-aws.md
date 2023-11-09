@@ -75,7 +75,7 @@ By default it's 8 GiB. This size is quite obviously not enough to store the bloc
 - `blocks/` – 22 GiB  
 - `chain/` – 4.3 GiB  
 
-So considering the database grows over time set a higher value. It depends on how long you want to run your node without thinking about the disk space. It might be a good idea to add at least 20 GiB to the current blockchain size, so you don't worry about the nearest future. Remember this disk is going to contain everything including OS. You can easily increase the disk size later when necessary. I set it's size to 120 GiB and a reminder to revisit this in the upcoming months.
+So considering the database grows over time set a higher value. It depends on how long you want to run your node without thinking about the disk space. It might be a good idea to add at least 20 GiB to the current blockchain size, so you don't worry about the nearest future. Remember this disk is going to contain everything including OS. You can easily increase the disk size later when necessary. I set it's size to 90 GiB and a reminder to revisit this in the upcoming months.
 
 ### Advanced details
 
@@ -87,10 +87,10 @@ After you configured the new instance settings you are ready to proceed with it'
 
 ## Connect to your instance
 
-After you successfully initiated launch of instance you should see a button "Connect to instance". If you click on it you can find several options how to connect to the instance. I added my default SSH key and I prefer to use Terminal to ssh into the instance. Public IP address is 3.110.49.183, so to ssh into the instance I simply use the following command:  
+After you successfully initiated launch of instance you should see a button "Connect to instance". If you click on it you can find several options how to connect to the instance. I added my default SSH key and I prefer to use Terminal to ssh into the instance. Public IP address is 35.154.209.88, so to ssh into the instance I simply use the following command:  
 
 ```
-ssh ec2-user@3.110.49.183
+ssh ec2-user@35.154.209.88
 ```
 
 ## Install hsd
@@ -106,7 +106,7 @@ nvm install --lts
 node -e "console.log('Running Node.js ' + process.version)"
 ```
 
-Mine is v18.18.1 which is [supported](https://github.com/handshake-org/hsd/blob/master/.github/workflows/build.yml#L57).
+Mine is v20.9.0 which is [supported](https://github.com/handshake-org/hsd/blob/master/.github/workflows/build.yml#L57).
 
 To be able to clone a git repository while building hsd from source git first need to be installed:  
 
